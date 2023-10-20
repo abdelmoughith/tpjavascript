@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .edit{
+            position: relative;
+            margin: 0%;
+            background-color: rgb(16, 178, 43);
+            color: white;
+            border: 1px solid rgb(16, 178, 43);
+            border-radius: 10%;
+            width: 45%;height: 100%;
+            text-align: center;
+            cursor: pointer;
+        }
+        .edit:hover{
+            position: relative;
+            margin: 0%;
+            background-color: white;
+            color: rgb(16, 178, 43);
+            border: 1px solid rgb(16, 178, 43);
+            border-radius: 10%;
+            width: 45%;height: 100%;
+            text-align: center;
+            cursor: pointer;
+        }
+        .delete{
+            
+            background-color: rgb(206, 15, 15);
+            color: white;
+            border: 1px solid rgb(206, 15, 15);
+            border-radius: 10%;
+            width: 45%;height: 100%;
+            text-align: center;
+            cursor: pointer;
+        }
+        .delete:hover{
+            
+            background-color: white;
+            color: rgb(206, 15, 15);
+            border: 1px solid rgb(206, 15, 15);
+            border-radius: 10%;
+            width: 45%;height: 100%;
+            text-align: center;
+            cursor: pointer;
+        }
+        #skipper{
+            position: absolute;
+            top: 0%;right: 0%;
+            margin: 5%;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="portfolio.html" id="skipper" class="btn btn-primary">Go to portfolio</a>
+
+    <div class="container my-5 ">
+
+        <h2>Add New Client</h2>
+
+
+        <br>
+        <form method="post">
+            <div class="row mb-3">
+                    <label class="col-form-label col-sm-1" for="name">Name:</label>
+                    <div class="col-sm-6">
+                        <input class="form-control" type="text" id="name" name="name" >
+                    </div>
+            </div>
+            <div class="row mb-3 ">
+                    <label class="col-form-label col-sm-1" for="email">Email:</label>
+                    <div class="col-sm-6">
+                        <input class="form-control" type="email" id="email" name="email" >
+                    </div>
+            </div>
+            <div class="row mb-3 ">
+                    <label class="col-form-label col-sm-1" for="phone">Phone:</label>
+                    <div class="col-sm-6">
+                        <input class="form-control" type="text" id="phone" name="phone">
+                    </div>
+            </div>
+            <div class="row mb-3 ">
+                    <label class="col-form-label col-sm-1" for="address">Address:</label>
+                    <div class="col-sm-6">
+                        <input class="form-control" type="text" id="address" name="address">
+                    </div>
+            </div>
+
+
+            <div class="row mb-3">
+                    <div class="offset-sm-1 col-sm-3 d-grid">
+                        <a class="btn btn-primary" onclick="add()">Add Client</a>
+                    </div>
+                 
+            </div>
+        </form>
+
+
+        <table class="table" id="table">
+            <thead>
+             <tr>
+                 <th>Name</th>
+                 <th>Email</th>
+                 <th>Phone</th>
+                 <th>Address</th>
+                 <th>Action</th>
+             </tr>
+             <!--test
+                <tr>
+                
+                <td>Moughit</td>
+                <td>Abdelmoughith2002@gmail.com</td>
+                <td>0644331202</td>
+                <td>Benguerir, Hay nour, 05, 83</td>
+                <td>
+                    <input type="button" value="Edit" class="edit" onclick="editRow(this)"/>
+                    <input type="button" value="Delete" class="delete" onclick="deleteRow(this)"/>
+                </td>
+             </tr>
+            -->
+             </thead>
+        </table>
+    </div>
+
+
+    
+
+
+
+
+<script src="script2.js"></script>
+</body>
+</html>

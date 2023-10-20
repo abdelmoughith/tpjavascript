@@ -1,0 +1,149 @@
+#logout{
+    position: absolute;
+    top: 0%;right: 0%;
+    margin: 0.7%;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    color: white;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /*profile and description part*/
+.person{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 70%;
+    height: 35%;
+    align-items: center;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #333;
+  }
+.pdp{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  max-width: 40%;max-height: 40%;
+  width: auto;height: auto;
+  border-radius: 200px;
+}
+.description{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 20%;
+  max-width: 70%;max-height: 90%;
+  width: auto;height: auto;
+  color: white;
+}
+.content{
+  position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 70%;
+    height: min-content;
+    align-items: center;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #595959;
+    color: white;
+    padding: 3%;
+    visibility: none;
+}
+.sport{
+  background-color: #04AA6D;
+  color: aqua;
+  visibility: invisible;
+}
+
+
+
+
+
+
+
+.footer-content {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  margin-bottom: 0%;
+  left: 0%;
+  top: 110%;
+  background-color: #333;
+  text-align: center;
+}
+.footer-content p{
+  color: #04AA6D;
+}
+.footer-content ul{
+  list-style: none;
+  padding: 0;
+}
+.footer-content ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-content ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+
+
+.logo-list {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  list-style: none;
+  display: flex;  
+  align-items: center;
+  
+  
+}
+
+.logo-list li {
+  margin: 0;
+}
+
+.logo-list img {
+  cursor: pointer;
+  max-width: 50%;max-height: 50%;
+  width: auto;height: auto;
+
+  border-radius: 200px;
+}
